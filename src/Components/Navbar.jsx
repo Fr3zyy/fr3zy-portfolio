@@ -15,7 +15,7 @@ export default function Navbar() {
                                     <p className="text-lg font-semibold">Fr3zy ·</p>
                                     <p className="ml-2 text-blue-300">Full-Stack Developer</p>
                                 </div>
-                                <p className="ml-4 text-black/500 bg-gray-200 px-6 rounded-md hover:bg-gray-200/70 sm:ml-0">v1.0</p>
+                                <p className="ml-6 text-black/500 bg-gray-200 px-6 rounded-md hover:bg-gray-200/70 sm:ml-0">v1.0</p>
                             </div>
                         </a>
                     </div>
