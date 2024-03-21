@@ -4,7 +4,7 @@ import { ProjectsData } from '@/utils/config';
 
 export default function Projects() {
     return (
-        <div>
+        <div id="projects">
             <div className='mb-6'>
                 <h1 className="text-3xl font-bold text-center mt-16 md:mt-64">My Projects</h1>
                 <p className="text-lg text-center mt-2 mb-4">You can see the projects I have done below.</p>

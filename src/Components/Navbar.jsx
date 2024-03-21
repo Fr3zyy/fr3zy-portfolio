@@ -10,10 +10,12 @@ export default function Navbar() {
                                 className="block h-12 w-auto rounded-full ring ring-red-500"
                                 src="https://cdn.discordapp.com/avatars/1155137511954337887/a_c8b2bebaaa5b801cf13575231d729776.gif?size=1024"
                             />
-                            <div className="flex ml-6 justify-center items-center">
-                                <p className="text-lg font-semibold">Fr3zy ·</p>
-                                <p className="ml-2 text-blue-300">Full-Stack Developer</p>
-                                <p className="ml-4 text-black/50 bg-gray-200 px-4 rounded-md hover:bg-gray-200/70">v1.0</p>
+                            <div className="flex ml-6 justify-center items-center flex-col sm:flex-row">
+                                <div className="flex items-center sm:mb-0 mb-2">
+                                    <p className="text-lg font-semibold">Fr3zy ·</p>
+                                    <p className="ml-2 text-blue-300">Full-Stack Developer</p>
+                                </div>
+                                <p className="ml-4 text-black/500 bg-gray-200 px-6 rounded-md hover:bg-gray-200/70 sm:ml-0">v1.0</p>
                             </div>
                         </a>
                     </div>
