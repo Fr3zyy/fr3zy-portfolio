@@ -10,9 +10,9 @@ export default function Projects() {
                 <p className="text-lg text-center mt-2 mb-4">You can see the projects I have done below.</p>
 
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-5  mx-auto mb-12 max-w-6xl">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mx-auto mb-12 max-w-6xl">
                 {ProjectsData.map((item, index) => (
-                    <div key={index} className="bg-gray-200/90 rounded-lg overflow-hidden shadow-lg px-2">
+                    <div key={index} className="bg-gray-200/90 rounded-lg  overflow-hidden shadow-lg px-2 mx-6 sm:mx-0">
                         <div className='flex flex-col items-center mx-2 mt-2'>
                             <img src={item.image} alt={item.name} className="h-auto rounded-lg" />
                         </div>

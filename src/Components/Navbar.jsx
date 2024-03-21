@@ -13,10 +13,11 @@ export default function Navbar() {
                             <div className="flex ml-6 justify-center items-center">
                                 <p className="text-lg font-semibold">Fr3zy ·</p>
                                 <p className="ml-2 text-blue-300">Full-Stack Developer</p>
+                                <p className="ml-4 text-black/50 bg-gray-200 px-4 rounded-md hover:bg-gray-200/70">v1.0</p>
                             </div>
                         </a>
                     </div>
-                    <div className="flex-shrink-0 flex px-2 py-3 items-center space-x-4">
+                    <div className="flex-shrink-0 px-2 py-3 items-center space-x-4 hidden sm:flex">
                         <button className="bg-gray-300/50 hover:bg-gray-400/50 font-medium text-white py-2 px-2 items-center rounded-full">
                             <FaDiscord className="fill-gray-600" />
                         </button>

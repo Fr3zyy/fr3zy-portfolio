@@ -4,8 +4,8 @@ import { FaDiscord, FaYoutube } from 'react-icons/fa';
 export default function Footer() {
     return (
         <footer className="text-black py-4">
-            <div className="container mx-auto flex justify-between items-center">
-                <div className="text-center">
+            <div className="container flex justify-between items-center">
+                <div className="text-center ml-2">
                     <p>Copyright &copy; 2024</p>
                 </div>
                 <div className="flex space-x-2">
@@ -16,7 +16,7 @@ export default function Footer() {
                         <FaYoutube className="fill-gray-600" />
                     </button>
                 </div>
-                <div className="text-center">
+                <div className="text-center mr-2">
                     <p>Developed by <span className='text-blue-500'>Fr3zy</span></p>
                 </div>
 
